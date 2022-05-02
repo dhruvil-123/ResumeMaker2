@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".All_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondary_color"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/secondary_color"
+            android:drawableLeft="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/view_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/secondary_color"
+            android:text="View CV"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/view"
+            android:drawablePadding="@dimen/margin"
+            android:layout_marginLeft="90dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/personal"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/personal"
+                android:shadowColor="@color/black"
+                android:text="Personal Detail"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/education"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/education"
+                android:shadowColor="@color/black"
+                android:text="Education"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/experience"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/experoence"
+                android:shadowColor="@color/black"
+                android:text="Experience"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/skill"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/personal"
+                android:shadowColor="@color/black"
+                android:text="Skill"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/objective"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/education"
+                android:shadowColor="@color/black"
+                android:text="Objective"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/workprofile"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/experoence"
+                android:shadowColor="@color/black"
+                android:text="Work Profile"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reference"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/secondary_color"
+                android:drawableTop="@drawable/personal"
+                android:shadowColor="@color/black"
+                android:text="Refrence"
+                android:textAllCaps="false"
+                android:layout_marginLeft="7dp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
